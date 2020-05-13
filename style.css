@@ -1,6 +1,7 @@
 body{
-        background-color: #8c2c6c;
-        font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+        background-color: #8c2c6c}
+
+* {font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
       }
       h1{ 
         background-color: black;
@@ -26,4 +27,15 @@ body{
       }
       #m{
         color: blue;
+      }
+      #kommentare{
+        display: flex;
+        flex-direction: column
+      }
+      #kommentare > * {
+        padding: 20px;
+        margin: 5px 0;
+      }
+      #section.kommentar {
+        background-color: #8c2c6c
       }
